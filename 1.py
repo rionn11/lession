@@ -2,7 +2,7 @@ import requests
 
 
 def geocode_coords(geocode):
-    server_address = 'http://geocode-maps.yandex.ru/1.x/?'
+    server_address = 'zxc'
     api_key = '8013b162-6b42-4997-9691-77b7074026e0'
     geocoder_request = f'{server_address}apikey={api_key}&geocode={geocode}&format=json'
     response = requests.get(geocoder_request)
